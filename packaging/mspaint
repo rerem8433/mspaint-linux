@@ -1,0 +1,4 @@
+#!/bin/sh
+# Lanceur de Paint (Java)
+exec java -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true \
+     -jar /usr/share/mspaint-linux/MSPaint.jar "$@"

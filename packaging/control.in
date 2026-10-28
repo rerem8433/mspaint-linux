@@ -1,0 +1,13 @@
+Package: mspaint-linux
+Version: @VERSION@
+Section: graphics
+Priority: optional
+Architecture: all
+Depends: default-jre | java8-runtime
+Installed-Size: @SIZE@
+Maintainer: @MAINTAINER@
+Description: Clone de MS Paint en Java, corrigé et traduit pour Linux
+ Portage Java de MS Paint (2022) réparé pour Linux :
+ annuler/rétablir, texte, pot de peinture, toutes les formes,
+ rogner/redimensionner/faire pivoter, gomme continue, images récentes,
+ mode sombre (bouton soleil) et interface en français.
